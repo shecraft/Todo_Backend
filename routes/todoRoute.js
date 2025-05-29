@@ -5,4 +5,4 @@ const todoRoute = express.Router()
 todoRoute.post("/", addTodo)
 todoRoute.get("/", getAllTodo)
 todoRoute.delete("/:id", deleteTodo)
-module.exports = todoRoute
+module.exports = todoRoute    
